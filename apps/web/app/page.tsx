@@ -1,18 +1,23 @@
- export default function Home() {
+import Image from "next/image";
+
+
+export default function Home() {
       return (
         <section className="space-y-8">
           {/* Top bio and photo section */}
           <div className="flex flex-col items-center gap-4 mt-6">
             {/* Profile photo - replace src with your image path */}
-            <img
-              src="/profile.jpg" // <-- Upload your photo as 'profile.jpg' in /public
-              alt="Tia Crown"
-              className="w-32 h-32 rounded-full border-4 border-pink-200 shadow-lg object-cover"
-            />
+            <Image
+            src="/profile.jpg"
+            alt="Tia Crown"
+            width={128}   // same as w-32
+            height={128}  // same as h-32
+            className="rounded-full border-4 border-pink-200"
+          />
             {/* Bio text */}
             <div className="text-center">
               <h1 className="text-3xl font-bold" style={{ color: "#e75480" }}>
-                Hi, I'm Tia Crown! 👋
+                Hi, I&apos;m Tia Crown! 👋
               </h1>
               <p className="mt-2 text-pink-700 font-medium">
                 Physics student at The University of Edinburgh.<br />

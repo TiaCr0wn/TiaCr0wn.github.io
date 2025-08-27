@@ -17,12 +17,12 @@ export default function Home() {
             {/* Bio text */}
             <div className="text-center">
               <h1 className="text-3xl font-bold" style={{ color: "#e75480" }}>
-                Hi, I&apos;m Tia Crown! 👋
+                Hi, I&apos;m Tia Crown! 👑
               </h1>
               <p className="mt-2 text-pink-700 font-medium">
-                Physics student at The University of Edinburgh.<br />
-                I love data, maths, and creative problem-solving.
+                Curiosity drives me - about the world, how things work, and the stories behind them. 
               </p>
+              
             </div>
           </div>
     

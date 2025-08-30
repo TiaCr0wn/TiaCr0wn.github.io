@@ -23,7 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               className="font-bold text-2xl"
               style={{
                 color: "#e75480", // Rosy pink hex
-                fontFamily: "'Quicksand', sans-serif",
+                fontFamily: "'', sans-serif",
                 letterSpacing: "2px",
               }}
             >
@@ -42,7 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {/* Footer with pink border */}
         <footer className="border-t border-pink-200 text-center text-sm text-pink-700 bg-pink-50 p-4">
-          © {new Date().getFullYear()} Tia Crown. All rights reserved.
+          © {new Date().getFullYear()} Tia Crown. Coded with VS code.
         </footer>
       </body>
     </html>
